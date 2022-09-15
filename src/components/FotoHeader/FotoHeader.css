@@ -1,0 +1,128 @@
+/* FOTO */
+.fotoArrowCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+@media (min-width: 768px) {
+    .fotoArrowCont {
+        position: initial;
+    }
+}
+.fotoCont {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    height: 20vw;
+    min-height: 10rem;
+    max-height: 15rem;
+    align-items: center;
+}
+.fotoCont-container {
+    position: relative;
+    height: 20%;
+    min-width: 10rem;
+    max-width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.botonCont {
+    position: absolute;
+    transform: perspective(600px) rotateY(180deg);
+    backface-visibility: hidden;
+    overflow: hidden;
+    transition: .6s;
+    animation: boton 1.5s linear infinite;
+}
+.botonCont button {
+    padding: .5rem;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: #f94 solid .15rem;
+    color: #f94;
+    border-radius: .3rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.fotoMia {
+    position: absolute;
+    width: 20vw;
+    min-width: 10rem;
+    max-width: 15rem;
+    margin: auto;
+    border-radius: 50%;
+    border: solid .14rem #f94;
+    animation: fotoMia 3s linear infinite;
+    transform: perspective(600px) rotateY(0deg);
+    backface-visibility: hidden;
+    overflow: hidden;
+    transition: .5s;
+}
+.fotoCont-container:hover .fotoMia{
+    transform: perspective(600px) rotateY(180deg);
+}
+.fotoCont-container:hover .botonCont{
+    transform: perspective(600px) rotateY(360deg);
+}
+@keyframes fotoMia {
+    0% {
+        box-shadow: #f94 0px 0px 0px 0px;
+    }
+    30% {
+        box-shadow: #f94 0px 0px 10px 5px;
+    }
+    65% {
+        box-shadow: #f94 0px 0px 20px 5px;
+    }
+    100% {
+        box-shadow: #f94 0px 0px 0px 0px;
+    }
+}
+@keyframes boton {
+    0% {
+        box-shadow: #000 0px 0px 0px 0px;
+    }
+    30% {
+        box-shadow: #000 0px 0px 10px 2px;
+    }
+    65% {
+        box-shadow: #000 0px 0px 15px 2px;
+    }
+    100% {
+        box-shadow: #000 0px 0px 0px 0px;
+    }
+}
+
+/* FLECHA */
+.arrowCont {
+    margin: 2rem 0;
+}
+.arrow {
+    width: 2rem;
+    filter: opacity(0.5) drop-shadow(0 0 0 #fff); 
+    animation: arrow .7s linear infinite;
+}
+@keyframes arrow {
+    0% {
+        transform: rotate(270deg) translateX(0rem);
+    }
+    50% {
+        transform: rotate(270deg) translateX(.5rem);
+    }
+    100% {
+        transform: rotate(270deg) translateX(0rem);
+    }
+}
+@media (max-height: 740px) {
+    .arrowCont {
+        display: none;
+    }
+    .fotoArrowCont {
+        padding-bottom: 1rem;
+    }
+}
