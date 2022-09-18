@@ -43,8 +43,8 @@
     padding: .5rem;
     text-transform: uppercase;
     background-color: transparent;
-    border: #f94 solid .15rem;
-    color: #f94;
+    border: violet solid .15rem;
+    color: violet;
     border-radius: .3rem;
     font-size: 1rem;
     cursor: pointer;
@@ -56,31 +56,31 @@
     max-width: 15rem;
     margin: auto;
     border-radius: 50%;
-    border: solid .14rem #f94;
+    border: solid .14rem violet;
     animation: fotoMia 3s linear infinite;
     transform: perspective(600px) rotateY(0deg);
     backface-visibility: hidden;
     overflow: hidden;
     transition: .5s;
 }
-.fotoCont-container:hover .fotoMia{
+.fotoCont:hover .fotoMia{
     transform: perspective(600px) rotateY(180deg);
 }
-.fotoCont-container:hover .botonCont{
+.fotoCont:hover .botonCont{
     transform: perspective(600px) rotateY(360deg);
 }
 @keyframes fotoMia {
     0% {
-        box-shadow: #f94 0px 0px 0px 0px;
+        box-shadow: violet 0px 0px 0px 0px;
     }
     30% {
-        box-shadow: #f94 0px 0px 10px 5px;
+        box-shadow: violet 0px 0px 10px 5px;
     }
     65% {
-        box-shadow: #f94 0px 0px 20px 5px;
+        box-shadow: violet 0px 0px 20px 5px;
     }
     100% {
-        box-shadow: #f94 0px 0px 0px 0px;
+        box-shadow: violet 0px 0px 0px 0px;
     }
 }
 @keyframes boton {

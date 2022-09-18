@@ -3,7 +3,7 @@ import ProyectosItem from '../ProyectosItem/ProyectosItem';
 
 function ProyectosList({proyects}) {
   return (
-    <div>
+    <div className='proyects-container'>
         {proyects.map(proyect => <ProyectosItem proyect={proyect}/>)}
     </div>
   )

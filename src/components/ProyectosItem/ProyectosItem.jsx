@@ -2,11 +2,14 @@ import './ProyectosItem.css';
 
 function ProyectosItem({proyect}) {
   return (
-    <div>
-      <hr />  
+    <div className='proyect'>
       <h4>{proyect.name}</h4>
+      <img src="./img/ayurveda.png" alt="" />
       <p>{proyect.technologies}</p>
-      <hr />
+      <div>
+        <button>Ver deploy</button>
+        <button>Ver código</button>
+      </div>
     </div>
   )
 }

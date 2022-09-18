@@ -1,0 +1,6 @@
+.proyects-container {
+    display: flex;
+    overflow-y: scroll;
+    gap: 3rem;
+    /* width: 40rem; */
+}

@@ -1,0 +1,8 @@
+#proyects {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+#proyects h2 {
+    color: #fff;
+}

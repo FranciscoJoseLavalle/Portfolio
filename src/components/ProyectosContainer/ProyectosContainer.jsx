@@ -5,6 +5,13 @@ let proyects = [
     {name: "Ayurveda", technologies: "React, Firebase"},
     {name: "Manga", technologies: "React, Firebase"},
     {name: "Finanzas", technologies: "React, Firebase"},
+    {name: "Oreo", technologies: "React, Firebase"},
+    {name: "Oreo", technologies: "React, Firebase"},
+    {name: "Oreo", technologies: "React, Firebase"},
+    {name: "Oreo", technologies: "React, Firebase"},
+    {name: "Oreo", technologies: "React, Firebase"},
+    {name: "Oreo", technologies: "React, Firebase"},
+    {name: "Oreo", technologies: "React, Firebase"},
     {name: "Oreo", technologies: "React, Firebase"}
 ]
 // >>>>>>>>>>>>>>>>>>>>HACERLO CON SLIDES<<<<<<<<<<<<<<<<<<<<<<<<<

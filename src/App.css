@@ -5,6 +5,11 @@ header, section {
     height: 100vh;
 	scroll-snap-align: center;
 	scroll-snap-stop: always;
+}
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     padding: 4rem;
 }
 @media (min-width: 768px) {
