@@ -10,3 +10,20 @@
   text-decoration: none;
   scroll-snap-type: both mandatory;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #aeaec7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #424869;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #202647;
+}

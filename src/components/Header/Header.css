@@ -39,15 +39,16 @@ h1 {
     position: fixed;
     border-radius: 50%;
     border: none;
-    height: 16rem;
-    width: 16rem;
+    height: 15rem;
+    width: 15rem;
     top: -8rem;
     right: -8rem;
     display: flex;
     align-items: flex-end;
-    padding-bottom: 4rem;
-    padding-left: 2rem;
+    padding-bottom: 3rem;
+    padding-left: 3rem;
     display: none;
+    z-index: 2;
 }
 
 .h1m {

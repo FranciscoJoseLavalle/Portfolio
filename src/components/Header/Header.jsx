@@ -1,3 +1,4 @@
+import Burger from '../Burger/Burger';
 import FotoHeader from '../FotoHeader/FotoHeader';
 import HeaderSections from '../HeaderSections/HeaderSections';
 import './Header.css';
@@ -15,7 +16,7 @@ function Header() {
         <button className='header__name-btn'>Contáctame</button>
       </div>
       <FotoHeader />
-      <button className='burger'>HAMBURGUESA</button>
+      <Burger />
       <nav className='header__nav'>
         <ul className='header__nav-ul'>
           <HeaderSections />

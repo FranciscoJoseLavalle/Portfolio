@@ -2,7 +2,30 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    width: 90%;
+    margin: auto;
+    padding: 0;
 }
 #proyects h2 {
     color: #fff;
+}
+.proyects__arrowCont {
+    width: 100%;
+    text-align: center;
+}
+.proyects__arrowCont-arrow {
+    width: 2rem;
+    filter: opacity(0.5) drop-shadow(0 0 0 #fff); 
+    animation: arrow2 .7s linear infinite;
+}
+@keyframes arrow2 {
+    0% {
+        transform: translateX(0rem);
+    }
+    50% {
+        transform: translateX(.5rem);
+    }
+    100% {
+        transform: translateX(0rem);
+    }
 }
