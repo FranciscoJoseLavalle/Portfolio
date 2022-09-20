@@ -1,6 +1,6 @@
 import './HeaderSections.css';
 
-function HeaderSections() {
+function HeaderSections({navMobile}) {
     return (
         <>
             <li><a href="#header">Inicio</a></li>

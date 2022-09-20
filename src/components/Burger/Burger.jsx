@@ -1,8 +1,8 @@
 import './Burger.css';
 
-function Burger() {
+function Burger({nav}) {
   return (
-    <button className='burger'><img src="./img/burger.png" alt="Burger" /></button>
+    <button className='burger'><img src="./img/burger.png" alt="Burger" onClick={nav}/></button>
   )
 }
 

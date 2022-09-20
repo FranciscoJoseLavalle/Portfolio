@@ -33,8 +33,8 @@ function SobreMi() {
             </div>
             {aboutSelected === 'info'
                 ? <div className='sobreMi__textContainer'>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ratione harum explicabo voluptatibus quod, id esse illo dolor fuga blanditiis officia. Laboriosam id dolores nemo dolore officia aut nobis nisi. Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum nam ad totam rerum consequatur ipsam fugiat excepturi repudiandae ipsa eveniet illum, officia molestias incidunt facere nesciunt laborum ducimus? Incidunt, atque.</p>
+                    <p>Soy desarrollador web fullstack. Estudié desarrollo web frontend con React en Coderhouse y actualmente estudio Backend con Express y MongoDB en el mismo lugar.</p>
+                    <p>Me apasiona mucho la tecnología. Busco soluciones constantemente y siempre quiero crecer tanto personal como profesionalmente.</p>
                 </div>
 
                 : <div className='sobreMi__tecnoContainer'>{technologies.map(technologie => <Tecnologias technologie={technologie}/>)}</div>
