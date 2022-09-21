@@ -1,6 +1,8 @@
 .header {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    /* justify-content: center; */
     gap: 1.5rem;
     padding: 2rem;
     position: relative;
@@ -8,6 +10,11 @@
 @media (min-width: 768px) {
     .header {
         justify-content: space-around;
+    }
+}
+@media (max-height: 570px) {
+    .header {
+        padding-top: 6rem;
     }
 }
 h1 {
@@ -34,10 +41,6 @@ h1 {
 .header__name-btn:hover {
     background-color: violet;
     color: #fff;
-}
-
-.header__name {
-    word-wrap: break-word;
 }
 
 .burger {
