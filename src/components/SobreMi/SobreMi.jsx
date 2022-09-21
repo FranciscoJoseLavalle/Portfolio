@@ -37,7 +37,7 @@ function SobreMi() {
                     <p>Me apasiona mucho la tecnología. Busco soluciones constantemente y siempre quiero crecer tanto personal como profesionalmente.</p>
                 </div>
 
-                : <div className='sobreMi__tecnoContainer'>{technologies.map(technologie => <Tecnologias technologie={technologie}/>)}</div>
+                : <div className='sobreMi__tecnoContainer'>{technologies.map((technologie, i) => <Tecnologias key={i} technologie={technologie}/>)}</div>
             }
 
         </section>

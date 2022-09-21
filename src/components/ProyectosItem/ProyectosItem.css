@@ -54,9 +54,11 @@
     display: flex;
     gap: .5rem;
 }
-.proyect__container-buttons button {
+.proyect__container-buttons a {
     flex-grow: 1;
     padding: .5rem;
+    font-size: .83rem;
+    text-align: center;
     border: none;
     background-color: #2a2036;
     color: #dedede;

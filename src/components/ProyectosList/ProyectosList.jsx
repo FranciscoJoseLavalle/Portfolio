@@ -4,7 +4,7 @@ import ProyectosItem from '../ProyectosItem/ProyectosItem';
 function ProyectosList({proyects}) {
   return (
     <div className='proyects-container'>
-        {proyects.map(proyect => <ProyectosItem proyect={proyect}/>)}
+        {proyects.map(( proyect, i) => <ProyectosItem key={i} proyect={proyect}/>)}
     </div>
   )
 }

@@ -9,7 +9,6 @@ function Header() {
   const [navMobile, setNavMobile] = useState(false);
 
   function nav() {
-    console.log('hola')
     navMobile ? setNavMobile(false) : setNavMobile(true);
   }
 
@@ -22,11 +21,16 @@ function Header() {
           José
           <br />
           Lavalle</h1>
-        <button className='header__name-btn'>Contáctame</button>
+        <a href="#contact"><button className='header__name-btn'>Contáctame</button></a>
       </div>
-      <FotoHeader />
-      <Burger nav={nav}/>
-      <nav className='header__nav' style={{
+        <FotoHeader />
+        <Burger nav={nav} />
+      <nav className='header__nav'>
+        <ul className='header__nav-ul'>
+          <HeaderSections />
+        </ul>
+      </nav>
+      <nav className='header__nav header__navMobile' style={{
         display: navMobile ? 'block' : 'none'
       }}>
         <ul className='header__nav-ul'>

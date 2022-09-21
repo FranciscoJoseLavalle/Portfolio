@@ -29,6 +29,11 @@ h1 {
     background-color: transparent;
     color: violet;
     font-size: 1rem;
+    transition: .2s;
+}
+.header__name-btn:hover {
+    background-color: violet;
+    color: #fff;
 }
 
 .header__name {
@@ -88,10 +93,12 @@ h1 {
         display: none;
         right: 0;
         top: 0;
-        width: 40%;
+        width: 200%;
         height: 100vh;
         z-index: 1;
         padding: 0;
+        animation-name: nav;
+        animation-duration: .5s;
     }
     .header__nav-ul {
         flex-direction: column;
@@ -119,3 +126,17 @@ h1 {
     }
 }
 
+@media (min-width: 768px) {
+    .header__navMobile {
+        display: none;
+    }
+}
+
+@keyframes nav {
+    0% {
+        right: -100%;
+    }
+    100% {
+
+    }
+}

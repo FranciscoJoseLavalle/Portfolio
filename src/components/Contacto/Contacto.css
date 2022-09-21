@@ -49,3 +49,16 @@
     max-width: 100%;
     max-height: 30rem;
 }
+.send {
+    border: violet solid .1rem;
+    background-color: transparent;
+    color: violet;
+    padding: .75rem;
+    border-radius: .5rem;
+    transition: .2s;
+    text-transform: uppercase;
+}
+.send:hover {
+    background-color: violet;
+    color: #fff;
+}

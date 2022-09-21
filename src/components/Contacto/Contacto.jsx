@@ -17,10 +17,15 @@ function Contacto() {
                     <label htmlFor="mensaje">Ingrese su mensaje</label>
                     <textarea id="mensaje" placeholder='*Ingresa tu mensaje'></textarea>
                 </div>
+                <button className='send'>Enviar</button>
             </form>
             <div className='contact__social'>
-                <a href="#"><img src="./img/linkedin.webp" alt="LinkedinIMG" /> LinkedIn</a>
-                <a href="#"><img src="./img/github.png" alt="GithubIMG" />Github</a>
+                <a href="https://www.linkedin.com/in/francisco-lavalle-336330216/" target="">
+                    <img src="./img/linkedin.webp" alt="LinkedinIMG" /> LinkedIn
+                </a> 
+                <a href="https://github.com/FranciscoJoseLavalle">
+                    <img src="./img/github.png" alt="GithubIMG" />Github
+                </a>
             </div>
         </section>
     )
