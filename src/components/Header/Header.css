@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: space-around;
     gap: 1.5rem;
     padding: 2rem;
     position: relative;
@@ -27,7 +27,9 @@ h1 {
     animation: title 3s 1 steps(30), cursor .5s infinite;
     font-size: 2.8rem;
 }
-
+.header__name {
+    width: min-content;
+}
 .header__name-btn {
     padding: .5rem;
     border: violet solid .1rem;
