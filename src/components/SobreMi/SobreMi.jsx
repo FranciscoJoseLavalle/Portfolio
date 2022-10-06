@@ -14,8 +14,9 @@ function SobreMi() {
         {name: "Javascript", thumbnail: 'js.webp'},
         {name: "React", thumbnail: 'reactjs.png'},
         {name: "Node", thumbnail: 'node.png'},
-        {name: "Express", thumbnail: 'reactjs.png'},
-        {name: "MongoDB", thumbnail: 'mongo.png'}
+        {name: "Express", thumbnail: 'express.png'},
+        {name: "MongoDB", thumbnail: 'mongo.png'},
+        {name: "KnexSQL", thumbnail: 'knex.png'}
     ]
 
     return (
