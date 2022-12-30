@@ -98,7 +98,7 @@ function Contacto() {
                     <img src="./img/linkedin.webp" alt="LinkedinIMG" /> LinkedIn
                 </a>
                 <a href="https://github.com/FranciscoJoseLavalle" target="_blank">
-                    <img src="./img/github.png" alt="GithubIMG" />Github
+                    <img src="./img/github.webp" alt="GithubIMG" />Github
                 </a>
             </div>
         </section>
