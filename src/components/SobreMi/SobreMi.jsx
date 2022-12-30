@@ -38,7 +38,7 @@ function SobreMi() {
             </div>
             {aboutSelected === 'info'
                 ? <div className='sobreMi__textContainer'>
-                    <p>Soy desarrollador web fullstack. Estudié desarrollo web frontend con React en Coderhouse y actualmente estudio Backend con Express y MongoDB en el mismo lugar.</p>
+                    <p>Estudié en Coderhouse durante un año la carrera de Programador Web FullStack.</p>
                     <p>Me apasiona mucho la tecnología. Busco soluciones constantemente y siempre quiero crecer tanto personal como profesionalmente.</p>
                 </div>
 
