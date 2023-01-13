@@ -2,6 +2,7 @@ import './ProyectosContainer.css';
 import ProyectosList from '../ProyectosList/ProyectosList';
 
 let proyects = [
+  { name: "e-Commerce", technologies: "Handlebars, Express, Mongoose, Node, CSS", thumbnail: "e-Commerce2.png", src: "https://ecommercefran.up.railway.app/", code: 'https://github.com/FranciscoJoseLavalle/proyectofinalbackend' },
   { name: "Ayurveda", technologies: "React, Firebase, HTML, CSS", thumbnail: "ayurveda.webp", src: "https://franciscojoselavalle.github.io/PrimeraReact/", code: 'https://github.com/FranciscoJoseLavalle/PrimeraReact' },
   { name: "Finanzas", technologies: "React, HTML, CSS", thumbnail: "finanzas.webp", src: 'https://finanzasreact.netlify.app/', code: 'https://github.com/FranciscoJoseLavalle/finanzasreact' },
   { name: "Oreo", technologies: "Javascript, HTML, CSS", thumbnail: "oreo.webp", src: 'https://oreoclicker.netlify.app/', code: 'https://github.com/FranciscoJoseLavalle/oreoclicker' },

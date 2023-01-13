@@ -20,6 +20,7 @@
     object-fit: cover;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+    object-position: top;
 }
 .proyect__banner-title {
     position: absolute;
