@@ -1,0 +1,47 @@
+.sobreMi__textContainer .studie {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.studie__thumbnail {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: thumbnailBackground;
+    animation-duration: .5s;
+    z-index: 2;
+}
+.studie__thumbnail span {
+    z-index: 1;
+}
+.studie__thumbnail-img {
+    width: 100%;
+    max-width: 60rem;
+    max-height: 90vh;
+    object-fit: contain;
+}
+
+.studie__thumbnail-background {
+    background-color: #0005;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+@keyframes thumbnailBackground {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

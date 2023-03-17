@@ -1,12 +1,12 @@
 import './HeaderSections.css';
 
-function HeaderSections({navMobile}) {
+function HeaderSections({ navMobile, nav }) {
     return (
         <>
-            <li><a href="#header">Inicio</a></li>
-            <li><a href="#aboutMe">Sobre mí</a></li>
-            <li><a href="#proyects">Proyectos</a></li>
-            <li><a href="#contact">Contacto</a></li>
+            <li><a href="#header" onClick={nav}>Inicio</a></li>
+            <li><a href="#aboutMe" onClick={nav}>Sobre mí</a></li>
+            <li><a href="#proyects" onClick={nav}>Proyectos</a></li>
+            <li><a href="#contact" onClick={nav}>Contacto</a></li>
         </>
     )
 }

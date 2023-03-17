@@ -34,7 +34,7 @@ function Header() {
         display: navMobile ? 'block' : 'none'
       }}>
         <ul className='header__nav-ul'>
-          <HeaderSections />
+          <HeaderSections nav={nav} />
         </ul>
       </nav>
     </header>

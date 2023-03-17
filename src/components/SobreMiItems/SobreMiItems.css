@@ -1,0 +1,10 @@
+.sobreMi__textContainer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.sobreMi__textContainer li {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
