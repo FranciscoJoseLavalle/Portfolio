@@ -10,7 +10,7 @@ function ProyectosContainer() {
       <h2>Proyectos</h2>
       <ProyectosList proyects={proyects} />
       <div className='proyects__arrowCont'>
-        <img src="./img/arrow.webp" alt="swipe" className='proyects__arrowCont-arrow' />
+        <img src="./img/icons/arrow.webp" alt="swipe" className='proyects__arrowCont-arrow' />
       </div>
     </section>
   )

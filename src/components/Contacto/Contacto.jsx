@@ -95,10 +95,10 @@ function Contacto() {
             }
             <div className='contact__social'>
                 <a href="https://www.linkedin.com/in/francisco-lavalle-336330216/" target="_blank">
-                    <img src="./img/linkedin.webp" alt="LinkedinIMG" /> LinkedIn
+                    <img src="./img/icons/linkedin.webp" alt="LinkedinIMG" /> LinkedIn
                 </a>
                 <a href="https://github.com/FranciscoJoseLavalle" target="_blank">
-                    <img src="./img/github.webp" alt="GithubIMG" />Github
+                    <img src="./img/icons/github.webp" alt="GithubIMG" />Github
                 </a>
             </div>
         </section>

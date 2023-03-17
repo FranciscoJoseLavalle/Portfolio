@@ -13,7 +13,7 @@ function FotoHeader() {
                 </div>
             </div>
             <div className="arrowCont">
-                <img src="./img/arrow.webp" alt="Flecha" className="arrow" />
+                <img src="./img/icons/arrow.webp" alt="Flecha" className="arrow" />
             </div>
         </div>
     )

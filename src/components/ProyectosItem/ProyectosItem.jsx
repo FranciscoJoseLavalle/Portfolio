@@ -23,7 +23,7 @@ function ProyectosItem({ proyect }) {
         <div className='proyect__container-info'>
           {technologies.map((techno, i) =>
             proyect.technologies.toLowerCase().includes(techno.name.toLowerCase())
-              ? <img key={i} src={`img/${techno.thumbnail}`} alt="Tecnología" />
+              ? <img key={i} src={`img/technologies/${techno.thumbnail}`} alt="Tecnología" />
               : null
           )}
         </div>

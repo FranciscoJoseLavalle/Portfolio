@@ -6,7 +6,7 @@ function Tecnologias({ technologie }) {
     return (
         <div className='technologie'>
             <LazyLoadImage
-                src={`./img/${technologie.thumbnail}`}
+                src={`./img/technologies/${technologie.thumbnail}`}
                 alt={`${technologie.name} image`}
                 effect="blur"
                 className='studie__thumbnail-img'
