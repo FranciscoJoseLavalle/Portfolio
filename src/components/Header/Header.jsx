@@ -20,7 +20,8 @@ function Header() {
           <br />
           José
           <br />
-          Lavalle</h1>
+          Lavalle
+        </h1>
         <a href="#contact"><button className='header__name-btn'>Contáctame</button></a>
       </div>
       <FotoHeader />

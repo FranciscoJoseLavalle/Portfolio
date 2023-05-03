@@ -1,22 +1,26 @@
 .header {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: space-around;
     gap: 1.5rem;
     padding: 2rem;
     position: relative;
+
 }
+
 @media (min-width: 768px) {
     .header {
         justify-content: space-around;
     }
 }
+
 @media (max-height: 570px) {
     .header {
         padding-top: 6rem;
     }
 }
+
 h1 {
     white-space: nowrap;
     border-right: 3px solid #fff;
@@ -27,9 +31,11 @@ h1 {
     animation: title 3s 1 steps(30), cursor .5s infinite;
     font-size: 2.8rem;
 }
+
 .header__name {
     width: min-content;
 }
+
 .header__name-btn {
     padding: .5rem;
     border: violet solid .1rem;
@@ -40,6 +46,7 @@ h1 {
     font-size: 1rem;
     transition: .2s;
 }
+
 .header__name-btn:hover {
     background-color: violet;
     color: #fff;
@@ -64,6 +71,7 @@ h1 {
 .h1m {
     display: none;
 }
+
 @keyframes title {
     0% {
         width: 0;
@@ -83,13 +91,23 @@ h1 {
     top: 0;
     right: 0;
 }
+
 .header__nav-ul {
     display: flex;
     gap: 1rem;
     justify-content: space-around;
 }
-.header__nav-ul a{
+
+.header__nav-ul a {
     color: #fff;
+}
+
+@media (max-width: 814px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 @media (max-width: 768px) {
@@ -105,10 +123,11 @@ h1 {
         animation-name: nav;
         animation-duration: .5s;
     }
+
     .header__nav-ul {
         flex-direction: column;
         align-items: flex-end;
-        background: linear-gradient(90deg,transparent, #10111a);
+        background: linear-gradient(90deg, transparent, #10111a);
         width: 100%;
         height: 100%;
         padding: 1rem;
@@ -116,16 +135,20 @@ h1 {
         gap: 2rem;
         justify-content: flex-start;
     }
+
     .header__nav-ul {
         font-size: 1.2rem;
     }
+
     .h1m {
         display: block;
         width: 10ch;
     }
+
     .h1d {
         display: none;
     }
+
     .burger {
         display: flex;
     }
@@ -141,7 +164,6 @@ h1 {
     0% {
         right: -100%;
     }
-    100% {
 
-    }
+    100% {}
 }

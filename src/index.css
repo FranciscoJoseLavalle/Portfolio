@@ -28,8 +28,8 @@
   background: #202647;
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   ::-webkit-scrollbar {
     height: 30px;
   }
-}
+} */

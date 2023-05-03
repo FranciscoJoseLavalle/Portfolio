@@ -14,11 +14,6 @@
         position: initial;
     }
 }
-@media (max-width: 750px) {
-    .fotoArrowCont {
-        margin: auto;
-    }
-}
 .fotoCont {
     margin-top: 1rem;
     display: flex;

@@ -3,12 +3,16 @@
     height: 100vw;
     max-height: 60vh;
     aspect-ratio: .9 / 1;
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    scroll-snap-align: center;
-    scroll-snap-stop: always;
+    /* scroll-snap-align: center;
+    scroll-snap-stop: always; */
     border-radius: 1rem;
+}
+
+.proyect * {
+    user-select: none;
 }
 
 .proyect__banner {
@@ -24,6 +28,7 @@
     border-top-right-radius: 1rem;
     object-position: top;
 }
+
 .proyect__banner span {
     width: 100%;
     height: 100%;

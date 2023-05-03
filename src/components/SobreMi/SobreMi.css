@@ -48,4 +48,5 @@
     justify-content: center;
     gap: 2rem;
     overflow-y: scroll;
+    padding: .5rem;
 }

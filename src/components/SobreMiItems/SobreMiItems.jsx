@@ -33,6 +33,10 @@ const SobreMiItems = ({ aboutSelected }) => {
                         </li>
                         <li>
                             <p style={{ color: 'violet' }}><b>Programador web FullStack</b></p>
+                            <small>Freelancer | 02/2023 - actualidad</small>
+                        </li>
+                        <li>
+                            <p style={{ color: 'violet' }}><b>Programador web FullStack</b></p>
                             <small>SideIT Solutions | 11/2022 - 02/2023</small>
                         </li>
                     </ul>

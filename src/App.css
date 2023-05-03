@@ -1,19 +1,23 @@
 body {
     background: linear-gradient(180deg, #1b203d, #3d294d, #3e3e5c);
 }
-header, section {
+
+header,
+main>section {
     height: 100vh;
-	scroll-snap-align: center;
-	scroll-snap-stop: always;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
 }
-section {
+
+main>section {
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding: 4rem;
 }
+
 @media (min-width: 768px) {
-    section {
+    main>section {
         width: 60%;
         min-width: 40rem;
         max-width: 55rem;
