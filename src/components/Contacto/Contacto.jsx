@@ -94,7 +94,7 @@ function Contacto() {
                 : <></>
             }
             <div className='contact__social'>
-                <a href="https://www.linkedin.com/in/francisco-lavalle-336330216/" target="_blank">
+                <a href="https://www.linkedin.com/in/franciscolavalle/" target="_blank">
                     <img src="./img/icons/linkedin.webp" alt="LinkedinIMG" /> LinkedIn
                 </a>
                 <a href="https://github.com/FranciscoJoseLavalle" target="_blank">
