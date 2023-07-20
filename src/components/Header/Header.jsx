@@ -22,6 +22,8 @@ function Header() {
           <br />
           Lavalle
         </h1>
+        <b style={{color: 'violet'}}>+10 meses de experiencia</b>
+        <br />
         <a href="#contact"><button className='header__name-btn'>Contáctame</button></a>
       </div>
       <FotoHeader />

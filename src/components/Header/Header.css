@@ -23,17 +23,27 @@
 
 h1 {
     white-space: nowrap;
-    border-right: 3px solid #fff;
-    width: 22ch;
+    /* border-right: 3px solid #fff; */
+    /* width: 22ch; */
     overflow: hidden;
     color: #fff;
     text-transform: uppercase;
-    animation: title 3s 1 steps(30), cursor .5s infinite;
+    /* animation: title 3s 1 steps(30), cursor .5s infinite; */
     font-size: 2.8rem;
 }
-
 .header__name {
     width: min-content;
+    animation-name: name;
+    animation-duration: 3s;
+}
+
+@keyframes name {
+    0% {
+        transform: translateY(-5rem);
+    }
+    100% {
+        transform: translateY(0rem);
+    }
 }
 
 .header__name-btn {

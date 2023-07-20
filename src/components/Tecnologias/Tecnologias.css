@@ -4,8 +4,12 @@
     align-items: center;
     gap: .5rem;
     color: #dedede;
+    transition: .2s;
 }
 .technologie img {
     width: 3rem;
     max-width: 3rem;
+}
+.technologie:hover {
+    transform: scale(1.1);
 }

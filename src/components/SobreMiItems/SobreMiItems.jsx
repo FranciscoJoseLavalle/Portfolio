@@ -28,15 +28,23 @@ const SobreMiItems = ({ aboutSelected }) => {
                 <div className='sobreMi__textContainer'>
                     <ul>
                         <li>
+                            <p style={{ color: 'violet' }}><b>Programador web FullStack</b></p>
+                            <small style={{color: 'white'}}>Desarrollo de aplicaciones web con Laravel, PHP, MySQL y Vue.</small>
+                            <small>GearthLogic | 06/2023 - actualidad</small>
+                        </li>
+                        <li>
                             <p style={{ color: 'violet' }}><b>Tutor de Backend</b></p>
+                            <small style={{color: 'white'}}>Guío a los alumnos durante sus estudios en Backend, explicándoles temas como Node, Express, Javascript, MongoDB, MySQL, entre otros.</small>
                             <small>Coderhouse | 02/2023 - actualidad</small>
                         </li>
                         <li>
                             <p style={{ color: 'violet' }}><b>Programador web FullStack</b></p>
+                            <small style={{color: 'white'}}>Desarrollo de aplicaciones web con Express, React y MongoDB.</small>
                             <small>Freelancer | 02/2023 - actualidad</small>
                         </li>
                         <li>
                             <p style={{ color: 'violet' }}><b>Programador web FullStack</b></p>
+                            <small style={{color: 'white'}}>Desarrollo de aplicaciones web con Symfony, PHP y MySQL.</small>
                             <small>SideIT Solutions | 11/2022 - 02/2023</small>
                         </li>
                     </ul>
