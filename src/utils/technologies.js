@@ -10,6 +10,7 @@ export const technologies = [
     { name: "ReactNative", thumbnail: 'react-native.png' },
     { name: "Node", thumbnail: 'node.webp' },
     { name: "Express", thumbnail: 'express.webp' },
+    { name: "Socket.IO", thumbnail: 'socketio.png' },
     { name: "Handlebars", thumbnail: 'handlebars.png' },
     { name: "PHP", thumbnail: 'php.webp' },
     { name: "Laravel", thumbnail: 'laravel.png' },
