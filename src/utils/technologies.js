@@ -6,6 +6,7 @@ export const technologies = [
     { name: "Git", thumbnail: 'git.webp' },
     { name: "SASS", thumbnail: 'sass.webp' },
     { name: "Javascript", thumbnail: 'js.webp' },
+    { name: "Typescript", thumbnail: 'typescript.png' },
     { name: "React", thumbnail: 'reactjs.webp' },
     { name: "ReactNative", thumbnail: 'react-native.png' },
     { name: "Node", thumbnail: 'node.webp' },
