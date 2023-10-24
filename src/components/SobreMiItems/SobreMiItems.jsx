@@ -11,7 +11,7 @@ const SobreMiItems = ({ aboutSelected }) => {
             return (
                 <div className='sobreMi__textContainer'>
                     <p>Soy <b style={{ color: 'violet' }}>Programador Web FullStack.</b> Comencé a estudiar de forma <b style={{ color: 'violet' }}>autodidacta</b> en 2021 y a fines del mismo año me anoté en Coderhouse.</p>
-                    <p>Tengo 20 años, vivo en Buenos Aires, Argentina. Me <b style={{ color: 'violet' }}>apasiona</b> la tecnología desde chico y me encanta encontrar <b style={{ color: 'violet' }}>soluciones</b> a todo lo que se me presenta.</p>
+                    <p>Tengo 21 años, vivo en Buenos Aires, Argentina. Me <b style={{ color: 'violet' }}>apasiona</b> la tecnología desde chico y me encanta encontrar <b style={{ color: 'violet' }}>soluciones</b> a todo lo que se me presenta.</p>
                     <p>Disfruto mucho programando tanto el <b style={{ color: 'violet' }}>Backend</b> como el <b style={{ color: 'violet' }}>Frontend</b> de una aplicación. Estoy en un constante <b style={{ color: 'violet' }}>aprendizaje</b>, siempre preparándome para nuevos <b style={{ color: 'violet' }}>desafíos</b>.</p>
                 </div >
             )
