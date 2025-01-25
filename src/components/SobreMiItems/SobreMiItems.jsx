@@ -10,7 +10,7 @@ const SobreMiItems = ({ aboutSelected }) => {
         case 'info': {
             return (
                 <div className='sobreMi__textContainer'>
-                    <p>Soy <b style={{ color: 'violet' }}>Programador Web FullStack.</b> Enfocado en la mejoría constante de los sitios web, centrándome en <b style={{ color: 'violet' }}>rendimiento, estética y buenas prácticas.</b>.</p>
+                    <p>Soy <b style={{ color: 'violet' }}>Programador Web FullStack.</b> Enfocado en la mejoría constante de los sitios web, centrándome en <b style={{ color: 'violet' }}>rendimiento, estética y buenas prácticas.</b></p>
                     <p>Tengo 22 años, vivo en Buenos Aires, Argentina. Me <b style={{ color: 'violet' }}>apasiona</b> la tecnología desde chico y me encanta encontrar <b style={{ color: 'violet' }}>soluciones</b> a todo lo que se me presenta.</p>
                     {/* <p>Disfruto mucho programando. Estoy en un constante <b style={{ color: 'violet' }}>aprendizaje</b>, siempre preparándome para nuevos <b style={{ color: 'violet' }}>desafíos</b>.</p> */}
                 </div >
