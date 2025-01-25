@@ -29,7 +29,7 @@ function ProyectosItem({ proyect }) {
         </div>
         <div className='proyect__container-buttons'>
           <a href={proyect.src} target='_blank'>Ver deploy</a>
-          <a href={proyect.code} target='_blank'>Ver código</a>
+          {proyect.code && <a href={proyect.code} target='_blank'>Ver código</a>}
         </div></div>
     </div>
   )

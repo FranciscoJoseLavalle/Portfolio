@@ -5,7 +5,7 @@ import ProyectosList from '../ProyectosList/ProyectosList';
 function ProyectosContainer() {
   return (
     <section id='proyects'>
-      <h2>Proyectos</h2>
+      <h2>Experiencia</h2>
       <ProyectosList />
       {/* <div className='proyects__arrowCont'>
         <img src="./img/icons/arrow.webp" alt="swipe" className='proyects__arrowCont-arrow' />
